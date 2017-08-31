@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>meetup</title>
+    <link rel="stylesheet" type="text/css" href="addEvent.css">
+
+    <!-- Bootstrap -->
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+</head>
+<body>
+
+<div class="container-fluid">
+    <div class="row heading container-fluid">
+
+        <div class="col-md-3">
+            <img src="../logo.png" alt="meetup" id="logo">
+        </div>
+
+        <div class="col-md-9 text-right nav nav-pills mainButtons">
+            <button type="button" class="btn btn-circle smallButtons"><i class="glyphicon glyphicon-calendar"></i></button>
+            <button type="button" class="btn btn-circle smallButtons"><i class="glyphicon glyphicon-bell"></i></button>
+            <button type="button" class="btn btn-circle smallButtons"><i class="glyphicon glyphicon-user"></i></button>
+        </div>
+
+    </div>
+</div>
+
+<div class="container">
+
+    <div class="row">
+        <div class="col-xs-12 text-center title">
+            <h3>Create a Meeting</h3>
+        </div>
+    </div>
+
+    <div class="form-container addEventBar">
+
+            <div class="col-md-12 text-center">
+                <input class="input" type="text" placeholder="Event name">
+            </div>
+
+
+            <div class="col-md-12 text-center">
+                <input class="input" type="datetime-local" placeholder="When?">
+            </div>
+            <div class="col-md-12 text-center">
+                <input class="input" type="text" placeholder="Where?">
+            </div>
+            <div class="col-md-12 text-center">
+                <input class="input" type="text" placeholder="Describe the event">
+            </div>
+            <div class="col-md-12 text-center">
+                <label class="radio-inline">
+                    <input type="radio" name="entertainment" id="inlineRadio1" value="option1"> entertainment
+                </label>
+                <label class="radio-inline">
+                    <input type="radio" name="study" id="inlineRadio2" value="option2"> study
+                </label>
+                <label class="radio-inline">
+                    <input type="radio" name="work" id="inlineRadio3" value="option3"> work
+                </label>
+            </div>
+
+            <div class=“clearfix visible-md-block”></div>
+
+            <div class="col-md-12 text-center">
+                <button type="submit" class="button">
+                    CREATE
+                </button>
+            </div>
+    </div>
+</div>
+</body>
+</html>

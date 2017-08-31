@@ -1,0 +1,43 @@
+.heading{
+    height: 67px;
+    background: linear-gradient(90deg, #00cfcd 0, #1e207e );
+}
+#logo{
+    width: 80px;
+    height: 60px;
+}
+.mainButtons{
+    padding-top: 20px;
+}
+.smallButtons{
+    border-radius: 20px !important;
+}
+.btn{
+    padding: 0 !important;
+}
+
+.btn-primary {
+    background-color: #6e75af !important;
+    border-color: #6f71ad !important;
+}
+
+.btn-info {
+    background-color: #61c2d1 !important;
+    border-color: #63b8cd !important;
+}
+
+.btn-circle {
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    font-size: 12px;
+    line-height: 1.428571429;
+}
+
+.btn-circle.btn-xl {
+    width: 100px;
+    height: 100px;
+    font-size: 24px;
+    line-height: 1.33;
+    border-radius: 50px;
+}
